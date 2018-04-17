@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'nodejs test.js'
+                sh '/usr/bin/nodejs test.js'
             }
         }
     }
